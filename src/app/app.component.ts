@@ -11,7 +11,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
 })
 export class AppComponent implements OnInit {
   title = 'CrowFundus';
-  projects;
+  projects: FirebaseListObservable<any[]>;
 
   constructor(private projectService: ProjectService){  }
 

@@ -1,0 +1,21 @@
+{
+  "projects": [{
+    "title": "Path to the Draft",
+    "description": "Help Kayl raise enough money to accomplish his childhood dream of being drafted into the NFL!",
+    "creators": "Nardo",
+    "goal": 1000000,
+    "reward": "Autographed Kayl jersey #37!"
+  }, {
+    "title": "The Nardoni Zamboni",
+    "description": "Help Matt raise enough money to build his own custom Zamboni.",
+    "creators": "Kayl E",
+    "goal": 530000,
+    "reward": "Matt will draw your name in the ice with his new Zamboni."
+  }, {
+    "title": "The Cam Cam",
+    "description": "Like Big Brother but with Cam",
+    "creators": "Nardo and Kayl",
+    "goal": 10,
+    "reward": "Watch Cam 24/7 on twitch.tv/camcam"
+  }]
+}

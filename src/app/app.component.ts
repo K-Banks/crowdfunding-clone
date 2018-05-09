@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 
@@ -10,5 +11,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CrowFundus';
-  constructor(){  }
+  constructor(private router: Router){  }
+
+  goToAdmin(){
+    this.router.navigate(['admin'])
+  }
+  goToHome() {
+    this.router.navigate(['']);
+  }
+
 }

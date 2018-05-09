@@ -1,0 +1,17 @@
+<div class="container">
+  <form>
+    <p>Title of project</p>
+    <input type="text" #newTitle class="form-control">
+    <p>Description of project</p>
+    <input type="text" #newDescription class="form-control">
+    <p>Creators of project</p>
+    <input type="text" #newCreators class="form-control">
+    <p>Goal($) of project</p>
+    <input type="number" #newGoal class="form-control">
+    <p>Rewards of project</p>
+    <input type="text" #newReward class="form-control">
+    <br><br>
+    <button (click)="submitForm(newTitle.value, newDescription.value, newCreators.value, newGoal.value, newReward.value)">Submit New Project!</button>
+    <br><br>
+  </form>
+</div>

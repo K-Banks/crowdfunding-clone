@@ -1,22 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import { ProjectService } from './project.service';
-import { FirebaseListObservable } from 'angularfire2/database';
+import { Component } from '@angular/core';
+
 
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [ProjectService]
+
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'CrowFundus';
-  projects: FirebaseListObservable<any[]>;
-
-  constructor(private projectService: ProjectService){  }
-
-  ngOnInit(){
-    this.projects = this.projectService.getProjects();
-  }
-
+  constructor(){  }
 }
